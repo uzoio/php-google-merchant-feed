@@ -80,7 +80,7 @@ class Feed
 		$this->initXMLService();
 		$this->initXMLWriter();
 		$namespace = $this->formatNamespace();
-		$this->xmlService->namespaceMap[static::GOOGLE_MERCHANT_XML_NAMESPACE] = 'g';
+		$this->xmlWriter->namespaceMap[static::GOOGLE_MERCHANT_XML_NAMESPACE] = 'g';
 
 		$xmlStructure = [];
 
